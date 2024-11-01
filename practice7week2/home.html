@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate JavaScript Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Intermediate JavaScript Practice</h1>
+
+    <!-- Task 1: String Casing -->
+    <div class="mb-4">
+        <h2>Task 1: String Casing</h2>
+        <button class="btn btn-primary" onclick="askName()">Enter Name</button>
+    </div>
+
+    <!-- Task 2: Life in Weeks -->
+    <div class="mb-4">
+        <h2>Task 2: Life in Weeks</h2>
+        <input type="number" id="ageInput" placeholder="Enter your age" class="form-control mb-2">
+        <button class="btn btn-primary" onclick="lifeInWeeks()">Calculate Life in Weeks</button>
+        <p id="lifeOutput"></p>
+    </div>
+
+    <!-- Task 3: BMI Calculator -->
+    <div class="mb-4">
+        <h2>Task 3: BMI Calculator</h2>
+        <input type="number" id="weight" placeholder="Enter your weight (kg)" class="form-control mb-2">
+        <input type="number" id="height" placeholder="Enter your height (m)" class="form-control mb-2">
+        <button class="btn btn-primary" onclick="calculateBMI()">Calculate BMI</button>
+        <p id="bmiOutput"></p>
+    </div>
+
+    <!-- Task 4: Who's buying lunch? -->
+    <div class="mb-4">
+        <h2>Task 4: Who's buying lunch?</h2>
+        <button class="btn btn-primary" onclick="whoIsBuying()">Find Out</button>
+        <p id="lunchOutput"></p>
+    </div>
+
+    <!-- Task 5: Fibonacci Sequence -->
+    <div class="mb-4">
+        <h2>Task 5: Fibonacci Sequence</h2>
+        <input type="number" id="fibonacciInput" placeholder="Enter number of terms" class="form-control mb-2">
+        <button class="btn btn-primary" onclick="generateFibonacci()">Generate Sequence</button>
+        <p id="fibonacciOutput"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
